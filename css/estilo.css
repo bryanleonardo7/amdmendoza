@@ -435,13 +435,33 @@ footer {
 /* haciendo el grid para mi GALERIA(4ta pagina)*/
 .gridGaleria {
   display: grid;
-  grid-template-columns: 100% 100%;
-  grid-template-rows:repeat( 2,auto);
-  grid-template-areas: 
-  ""
-  "";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "imagenGalery1  imagenGalery2 "
+     "imagenGalery3  imagenGalery4 "
+    "videoPrincipal videoPrincipal";
+}
+
+.imagenGalery1 {grid-area: imagenGalery1;
+}
+.imagenGalery2 {grid-area: imagenGalery2 ;}
+.imagenGalery3 {grid-area: imagenGalery3;}
+.imagenGalery4{grid-area: imagenGalery4;}
+
+.imagenGalery1,.imagenGalery2,.imagenGalery3,.imagenGalery4 span  {
+  color: white;
+  background-color: #d7bc45;
+  margin-top: 10px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+
+
+.videoPrincipal {
+  grid-area: videoPrincipal;
 }
 /*responsive Mobile para Galeria*/
 @media only screen and (max-width: 768px) {
- 
 }
