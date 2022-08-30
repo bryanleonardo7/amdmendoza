@@ -435,61 +435,13 @@ footer {
 /* haciendo el grid para mi GALERIA(4ta pagina)*/
 .gridGaleria {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas:
-    "galeriaTexto galeriaTexto galeriaTexto galeriaTexto"
-    "imagenesGaleria1 imagenesGaleria2 imagenesGaleria3 imagenesGaleria4"
-    "videoTexto videoTexto videoTexto videoTexto"
-    "videoPrincipal videoPrincipal  videoPrincipal videoPrincipal";
+  grid-template-columns: 100% 100%;
+  grid-template-rows:repeat( 2,auto);
+  grid-template-areas: 
+  ""
+  "";
 }
-.galeriaTexto {
-  grid-area: galeriaTexto;
-  color: white;
-  background-color: #d7bc45;
-  opacity: 0.9;
-  width: 200px;
+/*responsive Mobile para Galeria*/
+@media only screen and (max-width: 768px) {
+ 
 }
-
-.imagenesGaleria1 {
-  grid-area: imagenesGaleria1;
-}
-.imagenesGaleria2 {
-  grid-area: imagenesGaleria2;
-}
-.imagenesGaleria3 {
-  grid-area: imagenesGaleria3;
-}
-.imagenesGaleria4 {
-  grid-area: imagenesGaleria4;
-}
-
-.imagenesGaleria1,
-.imagenesGaleria2,
-.imagenesGaleria3,
-.imagenesGaleria4 {
-  background-color: #d7bc45;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  text-align: center;
-  opacity: 0.8;
-  margin-right: 20px;
-}
-
-.gridGaleria img {
-  width: 70%;
-  margin-bottom: 20px;
-  border-radius: 340px;
-}
-.videoTexto {
-  grid-area: videoTexto;
-}
-.videoText h2 {
-  margin-top: 20px;
-}
-
-.videoPrincipal {
-  grid-area: videoPrincipal;
-}
-
