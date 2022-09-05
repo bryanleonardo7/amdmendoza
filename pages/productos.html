@@ -4,27 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/estilo.css" />
     <script
       src="https://kit.fontawesome.com/6225fd6b18.js"
       crossorigin="anonymous"
     ></script>
   <body>
-    <div class="container-fluid">
+    <header class="container-fluid">
       <!-- LOGO + NAV -->
       <div class="row" class="d-flex justify-content-between">
         <div class="col-12 col-lg-12">
           <nav class="navbar navbar-expand-lg navbar-light" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"
-                ><img src="../assets/img/882811.png" alt="" class="img-fluid"
-              /></a>
+              <img src="../assets/img/882811.png" alt="" class="img-fluid"
+              />
               <button
                 class="navbar-toggler"
                 type="button"
@@ -42,23 +41,23 @@
               >
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html"
+                    <a class="nav-link my-links fw-bold" aria-current="page" href="../index.html"
                       >Inicio</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./historia.html">Historia</a>
+                    <a class="nav-link my-links fw-bold" href="./historia.html">Historia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./productos.html"
+                    <a class="nav-link my-links fw-bold" aria-current="page" href="./productos.html"
                       >Productos</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                    <a class="nav-link my-links fw-bold" href="./galeria.html">Galeria</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./contactos.html"
+                    <a class="nav-link my-links fw-bold" aria-current="page" href="./contactos.html"
                       >Contactos</a
                     >
                   </li>
@@ -68,58 +67,112 @@
           </nav>
         </div>
       </div>
-    </div>
+  </header>
     <main class="container-fluid">
+      <h1 class="text-center texts">PRODUCTOS</h1>
+      <div class="row procesador-container">
+        <h1 class="texts">Procesadores de AMD</h1>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/Ryzen-Pro-6000-Portada.webp" class="img-fluid" width="100%">
+          <h1>RZYEN PRO 6000</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quis officia dolorum quia deleniti minus quaerat numquam voluptatibus magni perferendis?</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/1268900-ryzen-5800x-pib-3d-vcache-1260x709.png" class="img-fluid" width="100%">
+          <h1>RYZEN 5800x</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quis officia dolorum quia deleniti minus quaerat numquam voluptatibus magni perferendis?</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/138914-athlon-pro-chipshot-back-1260x709.png" class="img-fluid" width="100%">
+          <h1>ATHLON PRO</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quis officia dolorum quia deleniti minus quaerat numquam voluptatibus magni perferendis?</p>
+        </div>
+        <div class="col-6 col-lg-3 ">
+          <img src="../assets/img/AMD-Zen-2-Arquitectura1.jpg" class="img-fluid" width="100%">
+          <h1>AMD ZEN 2</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quis officia dolorum quia deleniti minus quaerat numquam voluptatibus magni perferendis?</p>
+        </div>
+      </div>
+      <div class="row graficas-container">
+        <h1 class="texts">Graficas de AMD</h1>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/579976-amd-radeon-6000-series-ryzen-motherboard-1260x709.png" class="img-fluid" width="300">
+          <h1>AMD RADEON 6000</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a fuga rem, praesentium facilis dolores eum itaque debitis ipsa ducimus.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/795377-AMD-Radeon-PRO-W6800-angle-1260x709.png" class="img-fluid" width="100%">
+          <h1>AMD RADEON PRO</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a fuga rem, praesentium facilis dolores eum itaque debitis ipsa ducimus.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/amd-vega.jpg" class="img-fluid" width="100%">
+          <h1>AMD VEGA</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a fuga rem, praesentium facilis dolores eum itaque debitis ipsa ducimus.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img src="../assets/img/89128-BW-xbox-one-oneS-1260x709.jpg" class="img-fluid" width="100%">
+          <h1>XBOX ONE</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a fuga rem, praesentium facilis dolores eum itaque debitis ipsa ducimus.</p>
+        </div>
+      </div>
     </main>
     <footer class="container-fluid mt-3">
       <!-- FOOTER -->
       <div class="row">
         <div class="col-12 col-lg-4">
-          <img src="../assets/img/732003.png" class="img-fluid" alt="amdlogo">
-          <p>
+          <div class=" justify-content-evenly p-2 m-2 text-center">
+            <img src="../assets/img/732003.png" class="img-fluid" alt="amdlogo" />
+          <p class="m-3">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat,
-            pariatur.
-            Copyright © Todos los derechos reservados @bryanhuamanimendoza
+            pariatur. Copyright © Todos los derechos reservados
+            @bryanhuamanimendoza
           </p>
         </div>
-        <div class="col-12 col-lg-4">
-          <div>
-            <a href="https://www.amd.com/es/corporate/privacy" target="_blank"
-              >Politicas de Privacidad</a
-            >
-          </div>
-          <div>
-            <a href="https://www.amd.com/es/corporate/cookies" target="_blank"
-              >Politicas de Cookies</a
-            >
-          </div>
-          <div>
-            <a
-              href="https://www.amd.com/es/corporate/copyright"
-              target="_blank"
-              >Terminos y Condiciones</a
-            >
-          </div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo corporis ducimus fugiat excepturi perferendis sit commodi error accusantium voluptate nisi. Ea et natus debitis perspiciatis.
-          </p>
         </div>
-        <div class="col-12 col-lg-4">
-          
+        <div class="col-12 col-lg-4 ">
+          <a
+            href="https://www.amd.com/es/corporate/privacy"
+            target="_blank" 
+            class="nav-link my-links fw-bold m-2 w-100"
+            >Politicas de Privacidad</a
+          >
+          <a
+            href="https://www.amd.com/es/corporate/cookies"
+            target="_blank"
+            class="nav-link  my-links fw-bold m-2 w-100"
+            >Politicas de Cookies</a
+          >
+          <a
+            href="https://www.amd.com/es/corporate/copyright"
+            target="_blank"
+            class="nav-link my-links fw-bold m-2 w-100"
+            >Terminos y Condiciones</a
+          >
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+          corporis ducimus fugiat excepturi perferendis sit commodi error
+          accusantium voluptate nisi. Ea et natus debitis perspiciatis.
+        </p>
+      </div>
+        <div class="col-12 col-lg-4 m-auto">
+          <h3 class="text-center">Redes</h3>
+          <div class="d-flex justify-content-evenly py-1 my-1">
           <a
             href="https://www.facebook.com/AMDAmericadelSur/?brand_redir=23542086472"
-            target="_blank"
-            ><i class="fa-brands fa-facebook"></i
+            target="_blank"  
+            ><i class="fa-brands fa-facebook fa-3x" ></i
           ></a>
           <a
             href="https://twitter.com/AMD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-            target="_blank"
-            ><i class="fa-brands fa-twitter"></i
+            target="_blank" 
+            ><i class="fa-brands fa-twitter fa-3x" ></i
           ></a>
-          <a href="https://www.instagram.com/amd/?hl=es" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
+          <a href="https://www.instagram.com/amd/?hl=es" target="_blank"  
+            ><i class="fa-brands fa-instagram fa-3x"></i
           ></a>
         </div>
+      </div>
       </div>
     </footer>
     <script

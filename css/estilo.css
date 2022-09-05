@@ -1,0 +1,41 @@
+
+/*HEADER MAIN */
+/*FOOTER MAIN */
+header,footer {
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+/*HEADER NAV*/
+
+.my-links {
+    margin: 10px;
+    padding: 12px;
+    width: 100px;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.my-links:hover {
+    background:transparent;
+    border:2px solid gold;
+    box-shadow: 0 0 10px gold inset,
+                0 0 10px 4px gold;
+    border-radius: 10px;            
+}
+
+/*HISTORIA MAIN*/
+
+.texts {
+    letter-spacing: 2px;
+    transition: text-shadow 200ms;
+}
+
+.texts:hover {
+    text-shadow: red -2px 0,
+                    cyan 5px 0;
+}
